@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "TestBuy",
+    "slug": "test-buy",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1f1e29"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app would like to save images to your device.",
+        "NSPhotoLibraryAddUsageDescription": "This app would like to save images to your device."
+      },
+      "bundleIdentifier": "io.expo.client"
+    },
+    "description": "",
+    "android": {
+      "package": "io.expo.client"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
